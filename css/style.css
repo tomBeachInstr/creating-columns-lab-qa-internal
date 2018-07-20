@@ -55,7 +55,6 @@ img:hover {
     float: left;
     width: 31.333%;
     margin: 1%;
-    box-sizing: border-box;
 }
 
 /* create your tile classes! we recommend .small .med .large */
@@ -86,4 +85,7 @@ img:hover {
     visibility: hidden;
     height: 0;
     line-height: 0;
+}
+* {
+    box-sizing: border-box;
 }
